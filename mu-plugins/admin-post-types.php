@@ -12,7 +12,7 @@ function Admin_Post_types()
         'show_in_graphql' => true,
         'hierarchical'    => true,
         'labels' => [
-        'name'                => 'Services',
+            'name'                => 'Services',
             'add_new_item'        => 'Add New Service',
             'edit_item'           => 'Edit Service',
             'all_items'           => 'All Services',
