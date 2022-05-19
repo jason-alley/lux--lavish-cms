@@ -8,7 +8,7 @@ function added_post_types() {
 			'name'         => 'Services',
             'add_new_item' => 'Add New Service',
             'edit_item'    => 'Edit Service',
-            'all_item'     => 'All Services'
+            'all_items'     => 'All Services'
 		],
 		'menu_icon' => 'dashicons-screenoptions'
 	]);
