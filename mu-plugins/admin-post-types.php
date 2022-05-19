@@ -14,8 +14,8 @@ function added_post_types() {
             'all_items'           => 'All Services',
             'singular_name'       => 'Event'
 		],
-        'graphql_single_name' => 'document',
-        'graphql_plural_name' => 'documents',
+        'graphql_single_name' => 'service',
+        'graphql_plural_name' => 'services',
 		'menu_icon'           => 'dashicons-screenoptions'
 	]);
 }
