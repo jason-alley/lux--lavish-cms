@@ -33,18 +33,6 @@ endif;
 
 add_action( 'after_setup_theme', 'twentytwentytwo_support' );
 
-function added_post_types() {
-	register_post_type( 'services', [
-		'public' => true,
-		'labels' => [
-			'name' => 'Services'
-		],
-		'menu_icon' => 'dashicons-screenoptions'
-	]);
-}
-
-add_action( 'init', 'added_post_types' );
-
 if ( ! function_exists( 'twentytwentytwo_styles' ) ) :
 
 	/**
